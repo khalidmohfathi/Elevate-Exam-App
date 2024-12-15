@@ -1,0 +1,26 @@
+.primary{
+    background-color: var(--primary) ;
+    padding: .7rem 1.5rem;
+    color: white;
+    border: 1px solid var(--primary);
+
+}
+.primary:hover{
+    transition: all 0.3s;
+    background-color: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+}
+.secondary{
+    background-color: var(--secondary) ;
+    padding: .7rem 1.5rem; 
+    color: var(--primary);
+    border: 1px solid var(--secondary);
+
+}
+.secondary:hover{
+    transition: all 0.3s;
+    background-color: transparent;
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+}

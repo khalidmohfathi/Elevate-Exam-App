@@ -1,0 +1,36 @@
+@use "./styles/colors";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.ja{
+  align-self: start;
+}
+
+
+.PPPPP{
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.PPPPP::after{
+  content: "";
+  width: 35%;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  height: 1px;
+  background-color: gray;
+}
+.PPPPP::before{
+  content: "";
+  width: 35%;
+  position: absolute;
+  right:  0;
+  bottom: 50%;
+  height: 1px;
+  background-color: gray;
+}
